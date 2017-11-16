@@ -5,9 +5,14 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.jumbotron-home {
-    background-image: url(image_path('home-bg.jpg'));
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+body {
+    padding-top: 1.5rem;
+}
+
+.header {
+    margin-bottom: 2rem;
+}
+
+.container {
+    max-width: 46rem;
 }
